@@ -7,8 +7,8 @@ OUTPUT_SYMBOLS = {
     "Pi" : "math.pi",
     "Log": "math.log",
     "e": "math.exp(1)",
-    # "cos": "math.cos",
-    # "sin" : "math.sin"
+    "pi" : "math.pi",
+
 }
 
 
@@ -21,7 +21,6 @@ INPUT_SYMBOLS = {
     "ln": "Ln",
     "log" : "Ln",
     "sqrt": "Sqrt",
-    
 
 }
 
