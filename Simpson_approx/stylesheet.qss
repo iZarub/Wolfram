@@ -1,0 +1,37 @@
+QWidget#main{
+    background-color: #ffffff
+}
+
+QPushButton#start{
+    background-color: rgba(0, 0, 0, 255);
+    border-radius: 12;
+    color: #ffffff;
+    font-size: 20px;
+    border: 2 solid;
+}
+
+QPushButton#start:hover{
+    background-color: #ffffff;
+    color: #000000
+
+}
+
+QWidget#chatenter{
+    background-color: #000000;
+    border-radius: 20;
+    color: #ffffff;
+}
+
+QWidget#chatenter::placeholder{
+    color: #a2a2a2;
+}
+
+QWidget#chatenter1{
+    background-color: #000000;
+    border-radius: 10;
+    color: #ffffff;
+}
+
+QWidget#chatenter::placeholder{
+    color: #a2a2a2;
+}

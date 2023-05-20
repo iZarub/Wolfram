@@ -21,7 +21,6 @@ INPUT_SYMBOLS = {
     "ln": "Ln",
     "log" : "Ln",
     "sqrt": "Sqrt",
-
 }
 
 
