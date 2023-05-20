@@ -6,17 +6,22 @@ OUTPUT_SYMBOLS = {
     "Sin": "math.sin",
     "Pi" : "math.pi",
     "Log": "math.log",
-    "e": "math.exp",
+    "e": "math.exp(1)",
+    # "cos": "math.cos",
+    # "sin" : "math.sin"
 }
 
 
 INPUT_SYMBOLS = {
     "inf" : "Infinity",
+    "infty": "Infinity",
     "pi" : "Pi",
     "sin": "Sin",
     "cos": "Cos",
     "ln": "Ln",
+    "log" : "Ln",
     "sqrt": "Sqrt",
+    
 
 }
 
