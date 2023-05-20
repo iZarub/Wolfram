@@ -28,7 +28,6 @@ if __name__ == "__main__":
     integral = get_integral(input_for_wolfram, llim, rlim)
     if integral[0]:
         output_python_expr = parser.convert_to_python_expression(integral[1])
-        print(output_python_expr)
         real_y, ks = real_dependence(output_python_expr)
         plt.plot(ks, real_y, label = "Real Wolfram Integration")
         plt.grid()

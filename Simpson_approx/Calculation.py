@@ -22,7 +22,6 @@ def Simpson(k: int, func_str: str, llim: str, rlim: str) -> float:
 
     func_str = func_str.replace("k", f"{k}")
 
-    print(func_str)
     llim = check_for_pi(llim)
     rlim = check_for_pi(rlim)
     x = np.linspace(llim, rlim, 2*N)
