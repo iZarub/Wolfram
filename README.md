@@ -61,7 +61,8 @@ INPUT_SYMBOLS = {
 Таким образом, теперь мы можем переводить результаты вольфрама, которые получаем в формате строки, в обычные lambda функции в питоне с использованием метода
 eval(). Пример:
 
-(math.exp(1)**math.pi*math.log(math.exp(1)) - math.cos(k*math.pi)*math.log(math.exp(1)) + k*math.sin(k*math.pi))/(math.exp(1)**math.pi*(k**2 + math.log(math.exp(1))**2))
+![image](https://github.com/iZarub/Wolfram/assets/71636846/c0f50b04-a4c9-4dee-8b98-4effd34925e6)
+
 
 ## Еще по поводу API
 В этой реализации я использовал обращение к облаку напрямую через requests(TestApi.py), но также можно увидеть файл WolframApi.py, который в котором реализовано
